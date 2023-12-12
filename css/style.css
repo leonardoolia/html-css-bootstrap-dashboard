@@ -4,3 +4,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* ?UTILS */
+header {
+    height: 60px;
+    background-color: aqua;
+}
+
+.bot-content {
+    height: calc(100vh - 60px);
+    background-color: blueviolet;
+    overflow: auto;
+}
