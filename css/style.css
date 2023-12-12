@@ -10,11 +10,12 @@
 img {
     width: 100%;
     height: auto;
+    display: block;
 }
 
 /* !UTILS */
 header {
-    height: 60px;
+    min-height: 60px;
     background-color: aqua;
 }
 
@@ -34,6 +35,20 @@ main {
     flex-grow: 1;
     background-color: blueviolet;
     overflow: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* !HEADER */
+#logo img {
+    width: 60px;
 }
 
 /* !MAIN */
