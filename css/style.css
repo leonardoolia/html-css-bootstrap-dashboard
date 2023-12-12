@@ -1,11 +1,18 @@
-/* ?CSS RESET  */
+/* !CSS RESET  */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* ?UTILS */
+/* !GENERICS */
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* !UTILS */
 header {
     height: 60px;
     background-color: aqua;
@@ -13,7 +20,6 @@ header {
 
 .bot-content {
     height: calc(100vh - 60px);
-    background-color: blueviolet;
     overflow: auto;
 }
 
@@ -21,4 +27,18 @@ header {
     background-image: url('../img/sidebar-bg.png');
     background-color: #051e34;
     flex-basis: 60px;
+    flex-shrink: 0;
+}
+
+main {
+    flex-grow: 1;
+    background-color: blueviolet;
+    overflow: auto;
+}
+
+/* !MAIN */
+/* Main header */
+.main-header {
+    min-height: 120px;
+    background-color: crimson;
 }
