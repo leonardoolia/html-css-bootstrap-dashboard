@@ -52,6 +52,16 @@ a {
 }
 
 /* !MAIN */
+/* ?SIDEBAR */
+.sidebar a {
+    color: white;
+}
+
+.sidebar span {
+    display: none;
+}
+
+
 /* ?MAIN HEADER */
 
 .main-header .row {
