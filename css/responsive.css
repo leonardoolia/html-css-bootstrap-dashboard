@@ -1,0 +1,9 @@
+@media screen and (min-width: 768px) {
+    .main-header .row {
+        flex-direction: row;
+    }
+
+    .main-header .row div:last-child {
+        order: 1;
+    }
+}

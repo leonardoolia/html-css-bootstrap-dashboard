@@ -53,7 +53,14 @@ a {
 
 /* !MAIN */
 /* Main header */
-.main-header {
+/* .main-header {
     min-height: 120px;
-    background-color: crimson;
+} */
+
+.main-header .row {
+    flex-direction: column;
+}
+
+.main-header .row div:last-child {
+    order: -1;
 }
