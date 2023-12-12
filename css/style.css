@@ -52,10 +52,7 @@ a {
 }
 
 /* !MAIN */
-/* Main header */
-/* .main-header {
-    min-height: 120px;
-} */
+/* ?MAIN HEADER */
 
 .main-header .row {
     flex-direction: column;
@@ -64,3 +61,7 @@ a {
 .main-header .row div:last-child {
     order: -1;
 }
+
+/* ?MAIN CONTENT */
+
+/* Tabella */
