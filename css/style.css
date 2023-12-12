@@ -16,3 +16,9 @@ header {
     background-color: blueviolet;
     overflow: auto;
 }
+
+.sidebar {
+    background-image: url('../img/sidebar-bg.png');
+    background-color: #051e34;
+    flex-basis: 60px;
+}
