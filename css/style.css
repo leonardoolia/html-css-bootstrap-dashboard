@@ -32,7 +32,6 @@ header {
 
 main {
     flex-grow: 1;
-    background-color: blueviolet;
     overflow: auto;
 }
 
@@ -120,10 +119,13 @@ header .dropdown button {
     margin-left: 5px;
 }
 
+.main-header .offcanvas {
+    width: 100%;
+}
+
 
 
 /* ?MAIN CONTENT */
-
 .main-content .card {
     margin-bottom: 1.5rem;
 }

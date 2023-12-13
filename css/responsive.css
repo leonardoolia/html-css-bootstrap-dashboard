@@ -59,4 +59,7 @@
         display: inline;
     }
 
+    .main-header .offcanvas {
+        width: 55%
+    }
 }
