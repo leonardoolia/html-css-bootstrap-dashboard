@@ -133,6 +133,10 @@ header .icons .hidden {
     background-color: lightgray;
 }
 
+.next-classes .hidden {
+    display: none;
+}
+
 
 
 /* Accordion */
