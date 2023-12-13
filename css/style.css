@@ -105,5 +105,34 @@ header .icons .hidden {
 }
 
 /* Tabella */
+.next-classes th {
+    color: #5b5858;
+    font-size: 0.81rem;
+}
+
+.next-classes img {
+    width: 40px;
+    display: inline-block;
+    margin-right: 5px;
+    position: relative;
+    bottom: 3px;
+}
+
+.next-classes .actions i {
+    border: 1px solid #6c757d;
+    padding: 5px;
+    color: #6c757d;
+}
+
+.next-classes .actions .fa-trash {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.next-classes .actions i:active {
+    background-color: lightgray;
+}
+
+
 
 /* Accordion */
