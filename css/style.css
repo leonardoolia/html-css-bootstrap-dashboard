@@ -70,6 +70,11 @@ header .icons .hidden {
     color: #5b5858;
 }
 
+header .dropdown button {
+    border-color: transparent;
+    background-color: transparent;
+}
+
 
 
 /* !MAIN */
