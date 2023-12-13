@@ -46,17 +46,25 @@ a {
 }
 
 /* !HEADER */
-#logo img {
+/* Logo */
+#logo .small-logo {
     width: 60px;
 }
 
+#logo .big-logo {
+    display: none;
+}
+
+/* Navbar */
 header .navbar form {
-    width: 95%;
+    width: 90%;
 }
 
 header .navbar input {
     border-color: transparent;
 }
+
+/* Icone a destra */
 
 /* !MAIN */
 /* ?SIDEBAR */

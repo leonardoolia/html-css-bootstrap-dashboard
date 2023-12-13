@@ -1,3 +1,5 @@
+/* Display 768px (md) */
+
 @media screen and (min-width: 768px) {
     .main-header .row {
         flex-direction: row;
@@ -5,5 +7,17 @@
 
     .main-header .row div:last-child {
         order: 1;
+    }
+}
+
+/* Display 992px (lg) */
+
+@media screen and (min-width: 992px) {
+    #logo .small-logo {
+        display: none;
+    }
+
+    #logo .big-logo {
+        display: block;
     }
 }
