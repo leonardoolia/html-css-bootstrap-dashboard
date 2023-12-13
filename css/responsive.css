@@ -1,4 +1,4 @@
-/* Display 768px (md) */
+/* ?Display 768px (md) */
 
 @media screen and (min-width: 768px) {
     .main-header .row {
@@ -10,18 +10,32 @@
     }
 }
 
-/* Display 992px (lg) */
+/* ?Display 992px (lg) */
 
 @media screen and (min-width: 992px) {
+
+    /* Logo */
     #logo .small-logo {
         display: none;
     }
 
     #logo .big-logo {
         display: block;
+        padding-left: 5px;
     }
 
+    /* Icone a destra */
     header .icons .hidden {
         display: inline-block;
     }
+
+    /* Sidebar */
+    .sidebar {
+        flex-basis: 120px;
+    }
+
+    .sidebar span {
+        display: inline-block;
+    }
+
 }

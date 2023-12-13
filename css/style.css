@@ -80,6 +80,11 @@ header .icons .hidden {
 
 .sidebar span {
     display: none;
+    margin-left: 10px;
+}
+
+.sidebar-top li {
+    margin-bottom: 1rem;
 }
 
 
