@@ -16,7 +16,6 @@ img {
 /* !UTILS */
 header {
     min-height: 60px;
-    background-color: aqua;
 }
 
 .bot-content {
@@ -49,6 +48,14 @@ a {
 /* !HEADER */
 #logo img {
     width: 60px;
+}
+
+header .navbar form {
+    width: 95%;
+}
+
+header .navbar input {
+    border-color: transparent;
 }
 
 /* !MAIN */
