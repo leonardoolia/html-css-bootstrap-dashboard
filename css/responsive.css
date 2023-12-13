@@ -11,6 +11,10 @@
         order: 1;
     }
 
+    .main-header .new-student {
+        text-align: end;
+    }
+
     /* tabella */
     .next-classes .hidden {
         display: table-cell;
@@ -21,6 +25,7 @@
 
 @media screen and (min-width: 992px) {
 
+    /* HEADER */
     /* Logo */
     #logo .small-logo {
         display: none;
@@ -36,13 +41,22 @@
         display: inline-block;
     }
 
-    /* Sidebar */
+    /* SIDEBAR */
     .sidebar {
         flex-basis: 120px;
     }
 
     .sidebar span {
         display: inline-block;
+    }
+
+    /* MAIN-HEADER */
+    .main-header .boolean .badge-visible {
+        display: none
+    }
+
+    .main-header .boolean .badge-hidden {
+        display: inline;
     }
 
 }

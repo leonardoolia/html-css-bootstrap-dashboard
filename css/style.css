@@ -103,6 +103,25 @@ header .dropdown button {
     order: -1;
 }
 
+/* Boolean section */
+.main-header .badge.rounded-pill {
+    background-color: #165bba;
+}
+
+.main-header .badge-hidden {
+    display: none;
+}
+
+/* Nuovo studente */
+.main-header .new-student .fa-plus {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+
+
 /* ?MAIN CONTENT */
 
 .main-content .card {
