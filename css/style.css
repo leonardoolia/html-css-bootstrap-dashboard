@@ -74,4 +74,10 @@ a {
 
 /* ?MAIN CONTENT */
 
+.main-content .card {
+    margin-bottom: 1.5rem;
+}
+
 /* Tabella */
+
+/* Accordion */
