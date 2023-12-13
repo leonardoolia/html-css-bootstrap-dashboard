@@ -20,4 +20,8 @@
     #logo .big-logo {
         display: block;
     }
+
+    header .icons .hidden {
+        display: inline-block;
+    }
 }

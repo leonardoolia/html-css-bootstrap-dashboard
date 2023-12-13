@@ -65,6 +65,12 @@ header .navbar input {
 }
 
 /* Icone a destra */
+header .icons .hidden {
+    display: none;
+    color: #5b5858;
+}
+
+
 
 /* !MAIN */
 /* ?SIDEBAR */
